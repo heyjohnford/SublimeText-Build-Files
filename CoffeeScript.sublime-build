@@ -1,0 +1,6 @@
+{
+  "path": "/usr/local/share/npm/bin:/usr/local/bin:$PATH",
+  "cmd": ["coffee", "-c", "-o", "$file_path/../js/", "$file"],
+  "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+  "selector": "source.coffee"
+}

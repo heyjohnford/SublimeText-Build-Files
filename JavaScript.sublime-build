@@ -1,0 +1,5 @@
+{
+    "path": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH",
+    "cmd": ["uglifyjs", "$file", "-c", "-o", "$file_path/$file_base_name.min.js", "--verbose"],
+    "selector": "source.js"
+}

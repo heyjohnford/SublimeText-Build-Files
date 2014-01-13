@@ -1,0 +1,5 @@
+{
+  "path": "/usr/local/share/npm/bin:/usr/local/bin:$PATH",
+  "cmd": ["sass", "$file",":","$file_path/../css/$file_base_name.css"],
+  "selector": "source.scss"
+}
